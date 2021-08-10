@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 
+    public static void main(String[] args) throws IOException, URISyntaxException {
         String dosyaYolu = new File("").getAbsolutePath();
         File urunListesi = new File(dosyaYolu.concat("/src/urunler.txt"));
 
